@@ -5,9 +5,7 @@ export default function Home() {
 
     <>
 
-    <h1>Hello world</h1>
-    <h2>This is my first next app</h2>
-    
+   <h1>Home Page</h1>
     
     </>
 
