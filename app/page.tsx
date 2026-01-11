@@ -12,7 +12,8 @@ export default function Home() {
     <li><Link href="/contact">Contact</Link></li>
     <li><Link href="/products">Products</Link></li>
     <li><Link href="/about">About</Link></li>
-     <li><Link href="/about/branches">Branches</Link></li>
+    <li><Link href="/about/branches">Branches</Link></li>
+    <li><Link href="/products/veggies">Veggies</Link></li>
    </ul>
     
     </>
