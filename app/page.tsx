@@ -1,4 +1,4 @@
-
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -7,11 +7,11 @@ export default function Home() {
 
    <h1>Home Page</h1>
    <ul>
-    <li><a href="/my-first-next-app">Home</a></li>
-    <li><a href="/services">Services</a></li>
-    <li>Services</li>
-    <li>Contact</li>
-    <li>Products</li>
+    <li><Link href="/">Home</Link></li>
+    <li><Link href="/services">Services</Link></li>
+    <li><Link href="/contact">Contact</Link></li>
+    <li><Link href="/products">Products</Link></li>
+    <li><Link href="/about">About</Link></li>
    </ul>
     
     </>
