@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 
 function page() {
-  const vegies = [
+  const veggies = [
 
     {
       name: "broccali",
@@ -24,6 +24,27 @@ function page() {
   return (
     <div>
       <h1>veggies page</h1>
+      <ul>
+        {veggies.map((item)=> {
+
+          return (
+
+            <li key={item.id}><Link href={`/products/veggies/${item.name}`}>{item.name}</Link></li>
+
+
+
+          ) 
+
+
+
+
+
+        })}
+
+
+
+
+      </ul>
      
       
     </div>
