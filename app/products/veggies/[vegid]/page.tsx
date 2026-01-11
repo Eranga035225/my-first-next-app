@@ -1,13 +1,13 @@
 export default async function Page({
   params,
 }: {
-  params: Promise<{ id: string }>
+  params: Promise<{ vegid: string }>
 }) {
-  const { id } = await params
+  const { vegid } = await params
 
   return (
     <div>
-      Veg items {id}
+      Veg items {vegid}
     </div>
   )
 }
