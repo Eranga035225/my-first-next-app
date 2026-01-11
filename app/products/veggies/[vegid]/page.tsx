@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default async function Page({
   params,
 }: {
@@ -8,6 +10,7 @@ export default async function Page({
   return (
     <div>
       Veg items {vegid}
+      <li><Link href="/">Home</Link></li> 
     </div>
   )
 }
