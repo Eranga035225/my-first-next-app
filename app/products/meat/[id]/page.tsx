@@ -1,13 +1,13 @@
-import React from 'react'
+export default async function Page({
+  params,
+}: {
+  params: Promise<{ id: string }>
+}) {
+  const { id } = await params
 
-
-function page({ params } : {params : {id : string}}) {
   return (
     <div>
-      Meat items {params.id}
-      
+      Meat items {id}
     </div>
   )
 }
-
-export default page
